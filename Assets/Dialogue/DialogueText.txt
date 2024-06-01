@@ -1,0 +1,4 @@
+Narrator;You hear a meow, finding a black cat staring at you.;0;L
+Mavros;Meow!;0;L
+Mavros;You look weird.;0;L
+Narrator;You met Mavros the Tutorial Cat!;0;L
