@@ -24,8 +24,6 @@ public class BattleSystem : MonoBehaviour
     public BattleHud playerHUD;
     public BattleHud enemyHUD;
 
-
-
     public BattleState state;
 
     void Start()
@@ -122,11 +120,12 @@ public class BattleSystem : MonoBehaviour
             dialogueText.text = "You won the battle!";
             enemyText.text = "Dummy falls over.";
         }
-        else if(state == BattleState.LOST)
+        else
         {
             dialogueText.text = "You were defeated.";
             enemyText.text = "Dummy says nothing.";
-        }
+        };
+
     }
 
     void PlayerTurn()
