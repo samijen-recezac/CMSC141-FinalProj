@@ -17,4 +17,12 @@ public class BattleHud : MonoBehaviour
         hpText.text = "HP " + unit.currentHP + "/" + unit.maxHP;
     }
 
+    public void UpdateHP(int currentHP, int maxHP)
+    {
+        if (currentHP < 0)
+            currentHP = 0;
+
+        hpText.text = "HP " + currentHP + "/" + maxHP;
+    }
+
 }
