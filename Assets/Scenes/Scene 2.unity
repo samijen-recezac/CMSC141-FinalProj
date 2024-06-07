@@ -184,8 +184,8 @@ MonoBehaviour:
   - "You\u2019ll also meet people you have to fight. They\u2019re not bad people\u2026
     just doing their job. Think of it as sparring."
   - Let me heal you up before you go.
-  - Healed for n HP!
-  - "Well, that ends the tutorial. Good luck and\u2026 have fun?"
+  - Healed to full HP!
+  - Well, that ends the tutorial. That's mostly all you need to know.
   - 'Combat events. Events where you are challenged to fight against enemies. '
   portrait:
   - {fileID: 21300000, guid: 3bf887ad35d6f39428b4f4674791e20c, type: 3}
